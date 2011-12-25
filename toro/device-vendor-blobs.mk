@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
     IMSFramework \
     RTN \
     SDM \
-    SPG \
-    SyncMLSvc
+    SyncMLSvc \
+    VZWAPNLib \
+    VZWAPNService
 
