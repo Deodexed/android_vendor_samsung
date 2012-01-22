@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/fRom:system/bin/fRom \
     vendor/samsung/toro/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/toro/proprietary/libsyncml_core.so:system/lib/libsyncml_core.so \
-    vendor/samsung/toro/proprietary/libsyncml_port.so:system/lib/libsyncml_port.so \
     vendor/samsung/toro/proprietary/lib_gsd4t.so:system/lib/lib_gsd4t.so \
     vendor/samsung/toro/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/toro/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
@@ -37,8 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
     vendor/samsung/toro/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/toro/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/samsung/toro/proprietary/libims.so:system/vendor/lib/libims.so \
-    vendor/samsung/toro/proprietary/libims_jni.so:system/vendor/lib/libims_jni.so \
     vendor/samsung/toro/proprietary/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so \
     vendor/samsung/toro/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/toro/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
@@ -47,22 +43,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/toro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so \
-    vendor/samsung/toro/proprietary/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/samsung/toro/proprietary/PFFprec_600.emd:system/media/PFFprec_600.emd \
-    vendor/samsung/toro/proprietary/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
-    vendor/samsung/toro/proprietary/AndroidInSpace.480p.mp4:system/media/video/AndroidInSpace.480p.mp4 \
-    vendor/samsung/toro/proprietary/Disco.240p.mp4:system/media/video/Disco.240p.mp4 \
-    vendor/samsung/toro/proprietary/Disco.480p.mp4:system/media/video/Disco.480p.mp4 \
-    vendor/samsung/toro/proprietary/Sunset240p.mp4:system/media/video/Sunset.240p.mp4 \
-    vendor/samsung/toro/proprietary/Sunset480p.mp4:system/media/video/Sunset.480p.mp4
+    vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
+    vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
+    vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
 
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
-    BIP \
-    IMSFramework \
     RTN \
-    SDM \
-    SyncMLSvc \
     VZWAPNLib \
     VZWAPNService
 
